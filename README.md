@@ -15,9 +15,14 @@ npm install
 
 Create a .env file in the root directory of the project, and add the following environment variables:
 
-makefile
 
 CONNECTION_STRING=<your-mongodb-connection-string>
+
+Remove or comment fallowing code from index.js
+
+
+ export default app
+ 
 
 To start the server, run:
 
