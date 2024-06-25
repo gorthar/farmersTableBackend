@@ -40,4 +40,4 @@ mongoose
     console.error("Error connecting to MongoDB", err);
   });
 
-export default app;
+
